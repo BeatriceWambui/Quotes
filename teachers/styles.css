@@ -1,0 +1,124 @@
+body{
+    background-image:url("http://www.uidownload.com/files/991/126/544/blue-water-drops-background-free.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    font-size:20px;
+    margin-left:50px;
+}
+
+#home{
+    background-color:none;
+    font-size:30px;
+    color:black;
+    text-align:center;
+}
+
+nav{ 
+    margin:0 auto;
+    padding:0.1% 0;
+    margin-right:0;
+
+}
+
+.table{
+     text-align:center;
+     display:flex;
+     margin-left:300px;
+}
+
+ul>li {
+  display:inline-block;
+  padding:15px;
+}
+
+
+ul>li>a{
+    text-transform:uppercase;
+    padding:3%;
+    text-decoration:none;
+    color:black;
+}
+
+ul>li>a:hover{
+    box-shadow:0 0 0 0.625em rgba(255,255,255,0.1);
+    insert:0 0 0.625em rgba(255,255,255,0.6);
+    background-color:white;
+    color:black;
+}
+
+table,th,td{
+    padding:5px;
+    border-collapse:collapse;
+    border:2px solid red;
+}
+
+footer{
+    font-size:30px;
+    color:black;
+    text-align:center;
+    background-color:white;
+}
+
+.j{
+    display:block;
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;
+    color:red;
+}
+
+#services{
+    border:2px dotted red;
+}
+
+.x{
+    display:flex;
+    flex-direction:column;
+}
+
+#footer{
+    color:black;
+    text-align:center;
+}
+
+.eye{
+    display:flex;
+}
+
+.p{
+    text-align:center;
+    text-decoration:underline;
+}
+
+#smile{
+    display:block;
+}
+
+.Marquee {
+    border:2px solid black;
+    border-radius:4px;
+    transition:2s;
+}
+
+.Marquee:hover{
+transform:scale(1.1);
+}
+
+form{
+border:2px solid red;
+}
+
+.b{
+border:10px solid white;
+border-radius:10%;
+}
+
+.pre{
+margin-left:300px;
+margin-right:300px;
+}
+
+.bobo{
+display:flex;
+flex-direction:row;
+}
