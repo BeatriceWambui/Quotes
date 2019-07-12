@@ -26,45 +26,45 @@ Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD 
 if (gender===male&&date!){
 
 }*/
- var enter = document.getElementById("gender").value;{
+ var enter = document.getElementsByName("gender");
+
  function calculation(){
   return calculation  = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7
 }
-
 if (gender===male&&calculation===0){
-   document.write("Your Akan name is " + "Kwasi" );
+   document.write("Your Akan name is " + "male[0]" );
 }
 elseif (gender===male&&calculation===1){
-  document.write("Your Akan name is " + "Kwadwo" );
+  document.write("Your Akan name is " + "male[1]" );
 }
 elseif (gender===male&&calculation===2){
-  document.write("Your Akan name is " + "Kwabena"),
+  document.write("Your Akan name is " + "male[2]"),
 }
 elseif (gender===male&&calculation===3){
-  document.write("Your Akan name is " + "Kwaku");
+  document.write("Your Akan name is " + "male[3]");
 }
 elseif (gender===male&&calculation===4){
-  document.write("Your Akan name is " + "Yaw");
+  document.write("Your Akan name is " + "male[4]");
 }
 elseif (gender===male&&calculation===5){
-  document.write("Your Akan name is " + "Kofi");
+  document.write("Your Akan name is " + "male[5]");
 }
 elseif (gender===male&&calculation===6){
-  document.write("Your Akan name is " + "Kwame");
+  document.write("Your Akan name is " + "male[6]");
 }
 else if (gender===female&&calculation===0){
-  document.write("Your Akan name is " + "Akosuwa");
+  document.write("Your Akan name is " + "female[0]");
 }
 else if (gender===female&&calculation===1){
-  document.write("Your Akan name is " + "Adwaa");
+  document.write("Your Akan name is " + "female1");
 }else if (gender===female&&calculation===2){
-  document.write("Your Akan name is " + "Abenaa");
+  document.write("Your Akan name is " + "female[2]");
 }else if (gender===female&&calculation===3){
-  document.write("Your Akan name is " + "Akua");
+  document.write("Your Akan name is " + "female[3]");
 }else if (gender===female&&calculation===4){
-  document.write("Your Akan name is " + "Yaa");
+  document.write("Your Akan name is " + "female[4]");
 }else if (gender===female&&calculation===5){
-  document.write("Your Akan name is " + "Afua");
+  document.write("Your Akan name is " + "female[5]");
 }else if (gender===female&&calculation===6){
-  document.write("Your Akan name is " + "Ama");
+  document.write("Your Akan name is " + "female[6]");
 }
