@@ -18,7 +18,7 @@ elseif (gender===male&&calculation===1){
   document.write("Your Akan name is " + male[1] );
 }
 elseif (gender===male&&calculation===2){
-  document.write("Your Akan name is " + male[2]),
+  document.write("Your Akan name is " + male[2]);
 }
 elseif (gender===male&&calculation===3){
   document.write("Your Akan name is " + male[3]);
