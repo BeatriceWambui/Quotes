@@ -7,7 +7,7 @@
       <link href="bootstrap-4.3.1-dist/css/bootstrap.css" rel ="stylesheet" type="text/css" media="all">
       <link href="index.css" rel="stylesheet" type="text/css">
       <div class="jumbotron">
-              <h1>Project Workability</h1>
+            <div class="bg-secondary">  <h1>PROJECT WORKABILITY</h1></div>
       </div>
 
       <div class="container">
@@ -20,30 +20,36 @@
          <div class="card">
          <div class="row">
          <div com-md-6>
+           <div class="bg-info">
+              <div class="bg-secondary"><h2><strong>Fill in the form</strong></h2></div>
+              <form id="form">
+                firstname   :<br>
+                <input type="text" id="name1" name="firstname" placeholder="write your First Name"><br>
+                secondname  :<br>
+                <input type="text" id="name2" name="SecondName" placeholder="Write your second name"><br>
+                gender:<br>
+                <input type="radio" id="male" name="gender" value="male">Male<br>
+                <input type="radio" id="female" name="gender" value="female">Female<br>
+                birthday     :<br>
+                <input type="number" name="date" id="date" ><br>
+                birthmonth   :<br>
+                <input type="number" name="month" id= "month" ><br>
+                birthyear    :<br>
+                <input type="number" name="year" id="year" ><br>
+                birthcentury :<br>
+                <input type="number" name="century" id="century" ><br>
+                submit       :<br>
+                <button type="submit" value="submit" onclick="form()">submit</button>
+                <script src="index.js" type="text/javascript"></script>
 
-        <form id="form">
-          firstname   :<br>
-          <input type="text" id="name1" name="firstname" placeholder="write your First Name"><br>
-          secondname  :<br>
-          <input type="text" id="name2" name="SecondName" placeholder="Write your second name"><br>
-          gender:<br>
-          <input type="radio" id="male" name="gender" value="male">Male<br>
-          <input type="radio" id="female" name="gender" value="female">Female<br>
-          birthday     :<br>
-          <input type="number" name="date" id="date" ><br>
-          birthmonth   :<br>
-          <input type="number" name="month" id= "month" ><br>
-          birthyear    :<br>
-          <input type="number" name="year" id="year" ><br>
-          birthcentury :<br>
-          <input type="number" name="century" id="century" ><br>
-          submit       :<br>
-          <button type="submit" value="submit">submit</button>
-          <script src="index.js" type="text/javascript"> </script>
+              </form>
+      </div>
 
-        </form>
         </div>
         <div class="col-md-6">
+          <div class="margin">
+
+            <div class="bg-secondary"><h2><strong>About the Project</strong></h2></div>
           <p>This is a website that helps users to know their Akan names.
             This is based on the user being able to input their birthdays and
             their gender.The gender helps the website determine the Akan name
@@ -51,7 +57,9 @@
           </p>
           <div class="row">
             <div class="col-md-6">
-              <h2>Male Names</h2>
+              <div class="bg-secondary">
+                <h2><strong>Male Names</strong></h2>
+              </div>
               <ol>
                 <li>Sunday: Kwasi</li>
 
@@ -69,7 +77,9 @@
               </ol>
             </div>
             <div class="col-md-6">
-              <h2>Female Names</h2>
+              <div class="bg-secondary">
+                <h2><strong>Female Names</strong></h2>
+              </div>
               <ol>
                  <li>Sunday: Akosua</li>
 
@@ -92,7 +102,7 @@
           </div>
         </div>
         </div>
-
+      </div>
       </div>
       </div>
 

@@ -6,7 +6,6 @@ body{
 h1{
   text-align: center;
   font-size: 30px;
-  color;fafafa;
 }
 
 .project>li{
@@ -19,5 +18,8 @@ h1{
 
   }
 form{
+  padding-left: 50px;
+}
+.margin{
   padding-left: 50px;
 }
