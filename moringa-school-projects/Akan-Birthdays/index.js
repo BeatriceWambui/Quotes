@@ -1,7 +1,7 @@
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday"];
 var female =["Akosua", "Adwaa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 var male =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
-
+function form (){
   function calculation(){
   var CC =document.getElementById("century").value;
   var YY =document.getElementById("year").value;
@@ -11,7 +11,7 @@ var male =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
    calculation  = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD-1 )%7;
    return (Math.round(calculation));
 }
-function form (){
+
 var calc=calculation();
 var gender = document.getElementsByName("gender");
 if (gender[0].checked=true){
