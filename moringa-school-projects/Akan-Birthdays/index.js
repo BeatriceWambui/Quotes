@@ -4,6 +4,7 @@ var male =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var CC =document.getElementById("century").value;
 var YY =document.getElementById("year").value;
 var MM =document.getElementById("month").value;
+var DD =document.getElementById("date").value;
 /*var days = function(){
   var day1 = Sunday;
   var day2 = Monday;
