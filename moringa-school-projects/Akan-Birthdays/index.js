@@ -5,30 +5,7 @@ var CC =document.getElementById("century").value;
 var YY =document.getElementById("year").value;
 var MM =document.getElementById("month").value;
 var DD =document.getElementById("date").value;
-/*var days = function(){
-  var day1 = Sunday;
-  var day2 = Monday;
-  var day3 = Tuesday;
-  var day4 = Wednesday;
-  var day5 = Thursday;
-  var day6 = Friday;
-  var day7 = Saturday;
-}*/
-/*document.getElementById("name1").value;
-document.getElementById("name2").value;
-document.getElementById("male").value;
-document.getElementById("female").value;
-document.getElementById("date").value;
-*/
-/*document.getElementById("form").value;
 
-
-Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
-
-
-if (gender===male&&date!){
-
-}*/
  var enter = document.getElementsByName("gender");
 
 var calc= function calculation(){
